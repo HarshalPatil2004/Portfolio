@@ -7,6 +7,9 @@ import oracle from "../../public/oracle.png";
 import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
 import REACT from "../../public/reactjs.png";
+import express from "../../public/express.png";
+import node from "../../public/node.png";
+import tailwind from "../../public/tailwind-css-logo.jpg";
 
 function Experiance() {
   const cardItem = [
@@ -30,18 +33,38 @@ function Experiance() {
       logo: REACT,
       name: "React",
     },
+    {
+      id: 5,
+      logo: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+      name: "Next.js",
+    },
+    //{
+    //  id: 6,
+    //  logo: node,
+    //  name: "Node.js",
+    //},
+    {
+      id: 7,
+      logo: express,
+      name: "Express",
+    },
+    {
+      id: 8,
+      logo: tailwind,
+      name: "Tailwind CSS",
+    },
     // {
-    //   id: 5,
+    //   id: 9,
     //   logo: oracle,
     //   name: "Oracle",
     // },
     // {
-    //   id: 6,
+    //   id: 10,
     //   logo: spring,
     //   name: "Spring",
     // },
     // {
-    //   id: 7,
+    //   id: 11,
     //   logo: springBoot,
     //   name: "Spring Boot",
     // },
@@ -54,7 +77,7 @@ function Experiance() {
       <div>
         <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p className="  ">
-          I've more than 6 months of experiance in below technologies.
+          I have hands-on experience with modern web technologies including frontend frameworks and backend development. Proficient in React, Next.js, and the MERN stack.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (

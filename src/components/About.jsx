@@ -9,7 +9,7 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Harshal, a passionate Web developer with a keen eye for creating
+          Hello, I'm Harshal, a passionate Web Developer with a keen eye for creating
           innovative digital solutions. With a strong foundation in web technologies,
           I strive to build impactful and user-friendly applications that solve real-world problems.
         </p>
@@ -18,7 +18,7 @@ function About() {
           Education & Training
         </h1>
         <span>
-          Bachelor of Engineering in Computer Science, Bapurao Deshmukh college of  engineering, sewagram Wardha, 3rd Year
+          Bachelor of Engineering in Computer Science, Bapurao Deshmukh college of  engineering, sewagram Wardha, 4th Year
           {/* Web Development Certification, [Platform/Institution], [Year] */}
         </span>
         <br />
@@ -27,7 +27,7 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in HTML, CSS, JavaScript, React.js
+          Proficient in HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, Clerk Authentication, ShadCN, Git, Github
           Experienced with modern web development tools and frameworks
           Strong grasp of responsive design principles
           Excellent problem-solving skills
