@@ -7,9 +7,9 @@ import oracle from "../../public/oracle.png";
 import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
 import REACT from "../../public/reactjs.png";
-import express from "../../public/express.png";
 import node from "../../public/node.png";
 import tailwind from "../../public/tailwind-css-logo.jpg";
+import clerk from "../../public/mono-full.svg";
 
 function Experiance() {
   const cardItem = [
@@ -45,8 +45,8 @@ function Experiance() {
     //},
     {
       id: 7,
-      logo: express,
-      name: "Express",
+      logo: clerk,
+      name: "Clerk Auth",
     },
     {
       id: 8,
